@@ -8,15 +8,19 @@ build/
 *.xcuserstate
 *.xcscmblueprint
 
-# Secrets — create these locally (see README)
-kkhs2/AI Feature Config.xcconfig
-kkhs2/GoogleService-Info.plist
+# Secrets — create these locally (see README). Bare names match at any depth,
+# so root-level duplicate copies are covered too.
+AI Feature Config.xcconfig
+GoogleService-Info.plist
+.env
+.env.*
+Secrets.xcconfig
 
 # Local archives / backups (not part of the app)
 *.zip
 kkkk/
 save clav/
-Icon-iOS-Default-1024@1x.png
+/Icon-iOS-Default-1024@1x.png
 
 # Tooling
 .freebuff/
