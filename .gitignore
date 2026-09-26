@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+
+# Secrets — create these locally (see README)
+kkhs2/AI Feature Config.xcconfig
+kkhs2/GoogleService-Info.plist
+
+# Local archives / backups (not part of the app)
+*.zip
+kkkk/
+save clav/
+Icon-iOS-Default-1024@1x.png
+
+# Tooling
+.freebuff/
